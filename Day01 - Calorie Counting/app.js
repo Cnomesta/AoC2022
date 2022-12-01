@@ -1,3 +1,4 @@
+require('../Suppplement/time')
 const fs = require('fs');
 
 const array = fs
@@ -49,18 +50,5 @@ function part2() {
     return topthree;
 }
 
-(() => {
-    const begin = new Date(); // starts timer
-    const output = part1(); // "partX" part that is currently being timed
-    console.log("PART-1:", "Out put info", output); //"output" === partX function return data (Befor c.log was used)
-    const end = new Date() - begin; // ends timer
-    console.info('Execution time: %dms', end); // time to finishing task
-})();
-
-(() => {
-    const begin = new Date(); // starts timer
-    const output = part2(); // "partX" part that is currently being timed
-    console.log("PART-2:", "Out put info", output); //"output" === partX function return data (Befor c.log was used)
-    const end = new Date() - begin; // ends timer
-    console.info('Execution time: %dms', end); // time to finishing task
-})();
+timeScript(part1(), "1")
+timeScript(part2(), "2")
