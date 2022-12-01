@@ -1,4 +1,4 @@
-function time(input, number) {
+export function time(input, number) {
   (() => {
     const begin = new Date(); // starts timer
     const output = input; // "partX" part that is currently being timed
