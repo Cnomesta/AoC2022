@@ -1,5 +1,5 @@
-require('../Suppplement/time')
-require('../Suppplement/fsPull')
+require('../util/time')
+require('../util/fsPull')
 
 //const array = singleDepth('test.txt');
 //const array = doubleDepth('test.txt');

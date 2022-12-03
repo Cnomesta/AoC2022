@@ -1,4 +1,4 @@
-require('../Suppplement/time')
+require('../util/time')
 const fs = require('fs');
 
 const lines = fs
