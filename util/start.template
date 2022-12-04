@@ -5,3 +5,6 @@ require('../util/fsPull')
 //const array = doubleDepth('test.txt');
 
 console.log(array)
+
+//timeScript(part1(), 1)
+//timeScript(part2(), 2)
