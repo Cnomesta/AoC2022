@@ -23,7 +23,7 @@ function parts(lenght) {
         check = false;
         subrutine = [];
     }
-    return res;
+    return [res, subrutine];
 }
 
 timeScript(parts(4), 1)
